@@ -15,7 +15,7 @@ docker run --detach --privileged -p 2222:22 -v ~/.ssh/keys/id_rsa.pub:/root/.ssh
 
 After that you can use `docker stop dockerconnect` or `docker start dockerconnect`
 
-## SSH_config
+## SSH_Config
 Add to your SSH_Config file, the information for the container and the jump host:
 
 ```
