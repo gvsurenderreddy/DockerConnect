@@ -19,6 +19,7 @@ COPY entry.sh /entry.sh
 COPY vpn.sh /vpn.sh
 COPY supervisord.conf /etc/supervisord.conf
 
-ENTRYPOINT ["supervisord", "--nodaemon", "--configuration", "/etc/supervisord.conf"]
-
 EXPOSE 22
+
+CMD ["supervisord", "--nodaemon", "--configuration", "/etc/supervisord.conf"]
+
