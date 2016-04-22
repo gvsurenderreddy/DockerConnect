@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#script by https://github.com/macropin/docker-sshd
 
 set -e
 
